@@ -1,0 +1,28 @@
+{
+    "name": "dsa",
+    "version": "1.2.0",
+    "author": "Aashish",
+    "description": "dsa practices",
+    "entry_point": "main.cpp",
+    "apps": [
+        {
+            "name": "utils",
+            "source_dirs": ["src"]
+        },
+        {
+            "name": "queue"
+        },
+        {
+            "name": "stack"
+        },
+        {
+            "name": "linklists"
+        }
+    ],
+    "compiler": {
+        "CXX": "g++",
+        "CXXFLAGS": "-std=c++11",
+        "LFLAGS": "",
+        "LIB": "-Llib"
+    }
+}
