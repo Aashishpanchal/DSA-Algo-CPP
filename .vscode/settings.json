@@ -1,4 +1,8 @@
 {
+    "code-runner.executorMap": {
+        "cpp": "cpm-cli run $($dir+\"$fileName\")",
+    },
+    "code-runner.customCommand": "echo Hello World",
     "files.associations": {
         "*.tpp": "cpp",
     }
