@@ -1,6 +1,5 @@
 #include <iostream>
 #include "../include/stackarray.hpp"
-#include <conio.h>
 
 using namespace std;
 
@@ -23,6 +22,5 @@ int main()
     s.onConsole();
     cout << "Stack Last Element: " << s.getTop() << endl;
     cout << "Stack First Element: " << s.getBottom() << endl;
-    getch();
     return 0;
 }

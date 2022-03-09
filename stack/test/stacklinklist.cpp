@@ -1,6 +1,5 @@
 #include <iostream>
 #include "../include/stacklinklist.hpp"
-#include <conio.h>
 
 int main()
 {
@@ -20,6 +19,5 @@ int main()
     cout << s << endl;
     cout << "Stack Last Element: " << s.getTop() << endl;
     cout << "Stack First Element: " << s.getBottom() << endl;
-    getch();
     return 0;
 }
