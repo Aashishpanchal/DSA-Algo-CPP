@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "windows": {
+                "command": "cpm-cli",
+                "args": [
+                    "build",
+                    "${file}"
+                ]
+            }
+        },
+        {
+            "label": "build & run",
+            "type": "shell",
+            "windows": {
+                "command": "cpm-cli",
+                "args": [
+                    "run",
+                    "${file}"
+                ]
+            }
+        },
+    ]
+}
